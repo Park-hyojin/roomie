@@ -1,0 +1,62 @@
+running egg_info
+creating ../../build/roomie_rc/roomie_rc.egg-info
+writing ../../build/roomie_rc/roomie_rc.egg-info/PKG-INFO
+writing dependency_links to ../../build/roomie_rc/roomie_rc.egg-info/dependency_links.txt
+writing entry points to ../../build/roomie_rc/roomie_rc.egg-info/entry_points.txt
+writing requirements to ../../build/roomie_rc/roomie_rc.egg-info/requires.txt
+writing top-level names to ../../build/roomie_rc/roomie_rc.egg-info/top_level.txt
+writing manifest file '../../build/roomie_rc/roomie_rc.egg-info/SOURCES.txt'
+reading manifest file '../../build/roomie_rc/roomie_rc.egg-info/SOURCES.txt'
+writing manifest file '../../build/roomie_rc/roomie_rc.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/__init__.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/gui_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/config.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/arm_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/rc_node.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/location_manager.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/nav_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/vs_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/ioc_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+copying roomie_rc/rms_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+running install
+running install_lib
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/__init__.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/gui_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/config.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/arm_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/rc_node.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/location_manager.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/nav_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/vs_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/ioc_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/rms_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/gui_client.py to gui_client.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/config.py to config.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/arm_client.py to arm_client.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/rc_node.py to rc_node.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/location_manager.py to location_manager.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/nav_client.py to nav_client.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/vs_client.py to vs_client.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/ioc_client.py to ioc_client.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/rms_client.py to rms_client.cpython-312.pyc
+running install_data
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index/resource_index
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index/resource_index/packages
+copying resource/roomie_rc -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index/resource_index/packages
+copying package.xml -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/scripts
+creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/launch
+copying launch/rc_node.launch.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/launch
+running install_egg_info
+Copying ../../build/roomie_rc/roomie_rc.egg-info to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc-0.0.0-py3.12.egg-info
+running install_scripts
+Installing rc_node script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/roomie_rc
+writing list of installed files to '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/install.log'

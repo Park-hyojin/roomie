@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roomie_msgs/srv/robot_control/StopTracking.srv
+// generated code does not contain a copyright notice
+
+
+module roomie_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "StopTracking.srv" "\n"
+      "Request")
+    struct StopTracking_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct StopTracking_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+[console_scripts]
+button_controller = scripts.button_controller:main
+button_detector = scripts.button_detector:main
+roomie_ec_node = roomie_ec.roomie_ec_node:main
+test_communication_node = scripts.test_communication_node:main
+topic_monitor_node = scripts.topic_monitor_node:main

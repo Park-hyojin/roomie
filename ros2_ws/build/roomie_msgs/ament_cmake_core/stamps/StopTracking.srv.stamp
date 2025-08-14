@@ -1,0 +1,8 @@
+# StopTracking.srv
+# Request
+---
+# Response
+bool success
+string message
+
+

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "roomie_msgs/srv/ElevatorStatus_Request",
+      "fields": [
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "roomie_msgs/srv/ElevatorStatus_Request",
+      "hash_string": "RIHS01_b5d3d4e35d33fbe85e37a35ac439e3c75d17283dafaa206ee7ffc6adbb2ff567"
+    }
+  ]
+}

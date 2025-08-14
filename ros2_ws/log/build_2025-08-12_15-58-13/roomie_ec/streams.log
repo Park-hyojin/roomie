@@ -1,0 +1,25 @@
+[3.062s] Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_ec build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/install.log --single-version-externally-managed install_data
+[3.784s] running egg_info
+[3.835s] writing ../../build/roomie_ec/roomie_ec.egg-info/PKG-INFO
+[3.836s] writing dependency_links to ../../build/roomie_ec/roomie_ec.egg-info/dependency_links.txt
+[3.837s] writing entry points to ../../build/roomie_ec/roomie_ec.egg-info/entry_points.txt
+[3.838s] writing requirements to ../../build/roomie_ec/roomie_ec.egg-info/requires.txt
+[3.839s] writing top-level names to ../../build/roomie_ec/roomie_ec.egg-info/top_level.txt
+[3.944s] reading manifest file '../../build/roomie_ec/roomie_ec.egg-info/SOURCES.txt'
+[3.946s] writing manifest file '../../build/roomie_ec/roomie_ec.egg-info/SOURCES.txt'
+[3.946s] running build
+[3.947s] running build_py
+[3.948s] running install
+[3.963s] running install_lib
+[4.018s] running install_data
+[4.018s] running install_egg_info
+[4.072s] removing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages/roomie_ec-0.0.0-py3.12.egg-info' (and everything under it)
+[4.073s] Copying ../../build/roomie_ec/roomie_ec.egg-info to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages/roomie_ec-0.0.0-py3.12.egg-info
+[4.075s] running install_scripts
+[4.390s] Installing button_controller script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/roomie_ec
+[4.392s] Installing button_detector script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/roomie_ec
+[4.392s] Installing roomie_ec_node script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/roomie_ec
+[4.392s] Installing test_communication_node script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/roomie_ec
+[4.392s] Installing topic_monitor_node script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/roomie_ec
+[4.393s] writing list of installed files to '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/install.log'
+[4.493s] Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_ec build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/install.log --single-version-externally-managed install_data

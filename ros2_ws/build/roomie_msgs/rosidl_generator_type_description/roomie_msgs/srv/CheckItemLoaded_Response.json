@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "roomie_msgs/srv/CheckItemLoaded_Response",
+      "fields": [
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "item_loaded",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "roomie_msgs/srv/CheckItemLoaded_Response",
+      "hash_string": "RIHS01_3faa63340e950a1205d7ae62d079e2ffdf40f3e094926f66f92615d258f2c588"
+    }
+  ]
+}

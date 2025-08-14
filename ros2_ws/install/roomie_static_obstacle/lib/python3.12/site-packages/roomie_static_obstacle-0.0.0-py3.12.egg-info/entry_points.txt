@@ -1,0 +1,3 @@
+[console_scripts]
+route_manager = roomie_static_obstacle.route_manager_node:main
+tuner_node = roomie_static_obstacle.tuner_node:main

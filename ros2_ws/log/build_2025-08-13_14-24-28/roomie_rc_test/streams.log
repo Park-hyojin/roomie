@@ -1,0 +1,25 @@
+[4.239s] Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test': AMENT_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib:${LD_LIBRARY_PATH} PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc_test build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/install.log --single-version-externally-managed install_data
+[4.962s] running egg_info
+[5.009s] writing ../../build/roomie_rc_test/roomie_rc_test.egg-info/PKG-INFO
+[5.011s] writing dependency_links to ../../build/roomie_rc_test/roomie_rc_test.egg-info/dependency_links.txt
+[5.011s] writing entry points to ../../build/roomie_rc_test/roomie_rc_test.egg-info/entry_points.txt
+[5.012s] writing requirements to ../../build/roomie_rc_test/roomie_rc_test.egg-info/requires.txt
+[5.012s] writing top-level names to ../../build/roomie_rc_test/roomie_rc_test.egg-info/top_level.txt
+[5.108s] reading manifest file '../../build/roomie_rc_test/roomie_rc_test.egg-info/SOURCES.txt'
+[5.111s] writing manifest file '../../build/roomie_rc_test/roomie_rc_test.egg-info/SOURCES.txt'
+[5.112s] running build
+[5.112s] running build_py
+[5.112s] running install
+[5.125s] running install_lib
+[5.185s] running install_data
+[5.191s] running install_egg_info
+[5.254s] removing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages/roomie_rc_test-0.0.0-py3.12.egg-info' (and everything under it)
+[5.286s] Copying ../../build/roomie_rc_test/roomie_rc_test.egg-info to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages/roomie_rc_test-0.0.0-py3.12.egg-info
+[5.287s] running install_scripts
+[5.668s] Installing arm_server script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/roomie_rc_test
+[5.669s] Installing ioc_server script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/roomie_rc_test
+[5.669s] Installing rgui_server script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/roomie_rc_test
+[5.669s] Installing rms_server script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/roomie_rc_test
+[5.670s] Installing vs_server script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/roomie_rc_test
+[5.671s] writing list of installed files to '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/install.log'
+[6.494s] Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test' returned '0': AMENT_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib:${LD_LIBRARY_PATH} PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc_test build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/install.log --single-version-externally-managed install_data

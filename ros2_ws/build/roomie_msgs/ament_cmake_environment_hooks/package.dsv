@@ -1,0 +1,4 @@
+source;share/roomie_msgs/local_setup.bash
+source;share/roomie_msgs/local_setup.dsv
+source;share/roomie_msgs/local_setup.sh
+source;share/roomie_msgs/local_setup.zsh

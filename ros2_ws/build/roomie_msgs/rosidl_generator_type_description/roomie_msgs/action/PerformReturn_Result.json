@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "roomie_msgs/action/PerformReturn_Result",
+      "fields": [
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "roomie_msgs/action/PerformReturn_Result",
+      "hash_string": "RIHS01_683bf21bcaf35e106fb2d37c10a1a1d61624c0015c73f1d51cbbe77af72e41ca"
+    }
+  ]
+}

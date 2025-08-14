@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "roomie_msgs__py",
+		"source" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/roomie_msgs__py"
+	}
+}

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: roomie-static-obstacle
+Version: 0.0.0
+Summary: Static obstacle tuner and config for waypoint-based replanning
+Maintainer: dev
+Maintainer-email: dev@example.com
+License: MIT

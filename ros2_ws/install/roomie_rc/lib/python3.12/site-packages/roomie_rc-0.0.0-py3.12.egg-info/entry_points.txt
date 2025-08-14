@@ -1,0 +1,2 @@
+[console_scripts]
+rc_node = roomie_rc.rc_node:main

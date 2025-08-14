@@ -1,0 +1,97 @@
+// generated from rosidl_generator_c/resource/idl__type_support.c.em
+// with input from roomie_msgs:srv/CheckItemLoaded.idl
+// generated code does not contain a copyright notice
+
+#include <string.h>
+
+#include "roomie_msgs/srv/detail/check_item_loaded__type_support.h"
+#include "roomie_msgs/srv/detail/check_item_loaded__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "roomie_msgs/srv/detail/check_item_loaded__struct.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
+void *
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_CREATE_EVENT_MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  roomie_msgs,
+  srv,
+  CheckItemLoaded
+)(
+  const rosidl_service_introspection_info_t * info,
+  rcutils_allocator_t * allocator,
+  const void * request_message,
+  const void * response_message)
+{
+  if (!allocator || !info) {
+    return NULL;
+  }
+  roomie_msgs__srv__CheckItemLoaded_Event * event_msg = (roomie_msgs__srv__CheckItemLoaded_Event *)(allocator->allocate(sizeof(roomie_msgs__srv__CheckItemLoaded_Event), allocator->state));
+  if (!roomie_msgs__srv__CheckItemLoaded_Event__init(event_msg)) {
+    allocator->deallocate(event_msg, allocator->state);
+    return NULL;
+  }
+
+  event_msg->info.event_type = info->event_type;
+  event_msg->info.sequence_number = info->sequence_number;
+  event_msg->info.stamp.sec = info->stamp_sec;
+  event_msg->info.stamp.nanosec = info->stamp_nanosec;
+  memcpy(event_msg->info.client_gid, info->client_gid, 16);
+  if (request_message) {
+    roomie_msgs__srv__CheckItemLoaded_Request__Sequence__init(
+      &event_msg->request,
+      1);
+    if (!roomie_msgs__srv__CheckItemLoaded_Request__copy((const roomie_msgs__srv__CheckItemLoaded_Request *)(request_message), event_msg->request.data)) {
+      allocator->deallocate(event_msg, allocator->state);
+      return NULL;
+    }
+  }
+  if (response_message) {
+    roomie_msgs__srv__CheckItemLoaded_Response__Sequence__init(
+      &event_msg->response,
+      1);
+    if (!roomie_msgs__srv__CheckItemLoaded_Response__copy((const roomie_msgs__srv__CheckItemLoaded_Response *)(response_message), event_msg->response.data)) {
+      allocator->deallocate(event_msg, allocator->state);
+      return NULL;
+    }
+  }
+  return event_msg;
+}
+
+// Forward declare the get type support functions for this type.
+bool
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_DESTROY_EVENT_MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  roomie_msgs,
+  srv,
+  CheckItemLoaded
+)(
+  void * event_msg,
+  rcutils_allocator_t * allocator)
+{
+  if (!allocator) {
+    return false;
+  }
+  if (NULL == event_msg) {
+    return false;
+  }
+  roomie_msgs__srv__CheckItemLoaded_Event * _event_msg = (roomie_msgs__srv__CheckItemLoaded_Event *)(event_msg);
+
+  roomie_msgs__srv__CheckItemLoaded_Event__fini((roomie_msgs__srv__CheckItemLoaded_Event *)(_event_msg));
+  if (_event_msg->request.data) {
+    allocator->deallocate(_event_msg->request.data, allocator->state);
+  }
+  if (_event_msg->response.data) {
+    allocator->deallocate(_event_msg->response.data, allocator->state);
+  }
+  allocator->deallocate(_event_msg, allocator->state);
+  return true;
+}
+
+#ifdef __cplusplus
+}
+#endif

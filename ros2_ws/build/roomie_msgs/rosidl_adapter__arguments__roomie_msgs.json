@@ -1,0 +1,32 @@
+{
+  "package_name": "roomie_msgs",
+  "non_idl_tuples": [
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/robot_status/RobotState.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/robot_status/BatteryStatus.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/robot_status/RoomiePose.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/robot_status/Obstacle.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/robot_status/GlassDoorStatus.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/robot_status/Tracking.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/user_interface/RobotGuiEvent.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/rfid/ReadCardRequest.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:msg/rfid/ReadCardResponse.msg",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/robot_control/SetVSMode.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/robot_control/Location.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/robot_control/GetLocations.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/door_elevator/DoorStatus.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/door_elevator/ElevatorStatus.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/sensor/ButtonStatus.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/sensor/ButtonStatus2.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/sensor/CheckItemLoaded.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/sensor/CheckDoorState.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:srv/security/ControlLock.srv",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/PerformTask.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/PerformReturn.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/StartCountdown.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/ReadCardInfo.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/ReturnCountdown.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/SetPose.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/ClickButton.action",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs:action/Enroll.action"
+  ]
+}

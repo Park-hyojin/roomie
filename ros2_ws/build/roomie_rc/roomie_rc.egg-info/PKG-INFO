@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: roomie-rc
+Version: 0.0.0
+Summary: Robot Controller for Roomie service robot system
+Maintainer: Roomie Team
+Maintainer-email: admin@roomie.com
+License: MIT

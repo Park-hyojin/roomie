@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "roomie_msgs/action/ReturnCountdown_Feedback",
+      "fields": [
+        {
+          "name": "remaining_time",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "roomie_msgs/action/ReturnCountdown_Feedback",
+      "hash_string": "RIHS01_d1215718b42f73fec2457d34b7a957f7e68b63169854cb29da8bad2e9a0eb295"
+    }
+  ]
+}

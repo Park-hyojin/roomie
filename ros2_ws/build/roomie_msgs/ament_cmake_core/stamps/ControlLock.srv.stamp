@@ -1,0 +1,12 @@
+# ControlLock.srv
+# Request
+int32 robot_id
+bool locked
+---
+# Response
+int32 robot_id
+bool success
+
+# locked values:
+# true: 잠금 
+# false: 열림

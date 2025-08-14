@@ -1,0 +1,1148 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/phj/venv/ros_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found Python3: /home/phj/venv/ros_venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- NumPy include path: /home/phj/venv/ros_venv/lib/python3.12/site-packages/numpy/core/include
+-- Found Python3: /home/phj/venv/ros_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /home/phj/venv/ros_venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (5.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs
+[  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_copy_roomie_msgs
+running egg_info
+writing roomie_msgs.egg-info/PKG-INFO
+writing dependency_links to roomie_msgs.egg-info/dependency_links.txt
+writing top-level names to roomie_msgs.egg-info/top_level.txt
+reading manifest file 'roomie_msgs.egg-info/SOURCES.txt'
+writing manifest file 'roomie_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_roomie_msgs_egg
+[  0%] Built target roomie_msgs__rosidl_generator_type_description
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target roomie_msgs__cpp
+[  1%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__description.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__type_support.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__type_support.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__description.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/tracking__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__type_support.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/tracking__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/tracking__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__description.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/location__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/location__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/location__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/door_status__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/door_status__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/door_status__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__type_support.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/button_status__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/button_status__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/button_status__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__description.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__functions.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/perform_task__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/perform_task__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/perform_task__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/perform_return__description.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/perform_return__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/perform_return__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__type_support.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__functions.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/set_pose__description.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/set_pose__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/set_pose__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/click_button__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/click_button__functions.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/click_button__type_support.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/enroll__description.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/enroll__functions.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_c.dir/rosidl_generator_c/roomie_msgs/action/detail/enroll__type_support.c.o[0m
+[ 28%] [32m[1mLinking C shared library libroomie_msgs__rosidl_generator_c.so[0m
+[ 28%] Built target roomie_msgs__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/robot_state__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/glass_door_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/battery_status__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/roomie_pose__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/tracking__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/obstacle__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/robot_gui_event__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/robot_state__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/battery_status__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/set_vs_mode__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/read_card_response__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/msg/read_card_request__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/location__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/get_locations__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/roomie_pose__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/door_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/elevator_status__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/obstacle__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/glass_door_status__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/tracking__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/robot_gui_event__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/button_status__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/button_status2__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/check_item_loaded__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/check_door_state__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/read_card_request__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/msg/read_card_response__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/srv/control_lock__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/perform_task__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/set_vs_mode__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/location__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/get_locations__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/perform_return__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/start_countdown__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/read_card_info__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/door_status__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/elevator_status__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/return_countdown__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/button_status__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/set_pose__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/button_status2__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/click_button__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/roomie_msgs/action/enroll__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/check_item_loaded__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/check_door_state__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/srv/control_lock__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libroomie_msgs__rosidl_typesupport_c.so[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/perform_task__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/perform_return__type_support.cpp.o[0m
+[ 46%] Built target roomie_msgs__rosidl_typesupport_c
+[ 46%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/start_countdown__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/read_card_info__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/robot_state__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/return_countdown__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/battery_status__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/set_pose__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/roomie_pose__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/click_button__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roomie_msgs/action/enroll__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/obstacle__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/glass_door_status__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/robot_state__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/battery_status__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/roomie_pose__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/obstacle__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/tracking__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/glass_door_status__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/tracking__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/robot_gui_event__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/robot_gui_event__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/read_card_response__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/read_card_response__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/msg/detail/read_card_request__type_support.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/msg/detail/read_card_request__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/set_vs_mode__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/set_vs_mode__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/location__type_support.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/location__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/get_locations__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/door_status__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/get_locations__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/door_status__type_support.cpp.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/elevator_status__type_support.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/elevator_status__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/button_status__type_support.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/button_status__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/button_status2__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/button_status2__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/check_item_loaded__type_support.c.o[0m
+[ 59%] [32m[1mLinking CXX shared library libroomie_msgs__rosidl_typesupport_cpp.so[0m
+[ 59%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/check_door_state__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/srv/detail/control_lock__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/perform_task__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/perform_return__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/check_item_loaded__type_support.cpp.o[0m
+[ 61%] Built target roomie_msgs__rosidl_typesupport_cpp
+[ 61%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/check_door_state__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/start_countdown__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/read_card_info__type_support.c.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/srv/detail/control_lock__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/return_countdown__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/set_pose__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/click_button__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/perform_task__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/perform_return__type_support.cpp.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roomie_msgs/action/detail/enroll__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/start_countdown__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/read_card_info__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/return_countdown__type_support.cpp.o[0m
+[ 66%] [32m[1mLinking C shared library libroomie_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 66%] Built target roomie_msgs__rosidl_typesupport_introspection_c
+[ 67%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/robot_state__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/roomie_pose__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/enroll__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/click_button__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/battery_status__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/glass_door_status__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roomie_msgs/action/detail/set_pose__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/tracking__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/tracking__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/robot_gui_event__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/robot_gui_event__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/read_card_response__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/read_card_request__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/read_card_request__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/set_vs_mode__type_support_c.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library libroomie_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] Built target roomie_msgs__rosidl_typesupport_introspection_cpp
+[ 74%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/door_status__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/door_status__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/elevator_status__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/elevator_status__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/get_locations__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/button_status2__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/button_status__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/check_item_loaded__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/button_status2__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/check_door_state__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/button_status__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/location__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/check_item_loaded__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/glass_door_status__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/control_lock__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/obstacle__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/msg/detail/roomie_pose__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/check_door_state__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/srv/detail/control_lock__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/perform_task__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/perform_return__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/get_locations__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/perform_task__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/perform_return__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/start_countdown__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/start_countdown__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/read_card_info__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/return_countdown__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/click_button__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/enroll__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/enroll__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roomie_msgs/action/detail/set_pose__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/click_button__type_support.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library libroomie_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 84%] Built target roomie_msgs__rosidl_typesupport_fastrtps_c
+[ 85%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/read_card_info__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/action/detail/dds_fastrtps/return_countdown__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/msg/detail/dds_fastrtps/read_card_response__type_support.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/roomie_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roomie_msgs/srv/detail/dds_fastrtps/set_vs_mode__type_support.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libroomie_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 87%] Built target roomie_msgs__rosidl_typesupport_fastrtps_cpp
+[ 87%] Built target roomie_msgs
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target roomie_msgs__py
+[ 88%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_robot_state_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_glass_door_status_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_roomie_pose_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_battery_status_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_obstacle_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_tracking_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_read_card_request_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_read_card_response_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/msg/_robot_gui_event_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_set_vs_mode_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_location_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_elevator_status_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_get_locations_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_door_status_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_button_status_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_check_door_state_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_check_item_loaded_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_button_status2_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/srv/_control_lock_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_perform_task_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_perform_return_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_start_countdown_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_read_card_info_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_return_countdown_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_set_pose_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_click_button_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/roomie_msgs__rosidl_generator_py.dir/rosidl_generator_py/roomie_msgs/action/_enroll_s.c.o[0m
+[ 97%] [32m[1mLinking C shared library libroomie_msgs__rosidl_generator_py.so[0m
+[ 97%] Built target roomie_msgs__rosidl_generator_py
+[ 98%] [32mBuilding C object CMakeFiles/roomie_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/roomie_msgs/_roomie_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/roomie_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/roomie_msgs/_roomie_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/roomie_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/roomie_msgs/_roomie_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/roomie_msgs/roomie_msgs_s__rosidl_typesupport_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/roomie_msgs/roomie_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 99%] Built target roomie_msgs_s__rosidl_typesupport_c
+[ 99%] Built target roomie_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] [32m[1mLinking C shared module rosidl_generator_py/roomie_msgs/roomie_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] Built target roomie_msgs_s__rosidl_typesupport_introspection_c
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/ament_index/resource_index/rosidl_interfaces/roomie_msgs
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/RobotState.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/BatteryStatus.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/RoomiePose.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/Obstacle.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/GlassDoorStatus.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/Tracking.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/RobotGuiEvent.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/ReadCardRequest.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/ReadCardResponse.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/SetVSMode.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/Location.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/GetLocations.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/DoorStatus.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ElevatorStatus.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ButtonStatus.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ButtonStatus2.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/CheckItemLoaded.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/CheckDoorState.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ControlLock.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/PerformTask.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/PerformReturn.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/StartCountdown.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ReadCardInfo.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ReturnCountdown.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/SetPose.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ClickButton.json
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/Enroll.json
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/return_countdown.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/perform_return.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/enroll.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/set_pose.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/read_card_info.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/start_countdown.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/click_button.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/perform_task.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/button_status.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/check_door_state.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/location.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__description.c
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__struct.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__type_support.c
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__functions.c
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__functions.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/elevator_status.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/door_status.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/control_lock.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/check_item_loaded.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/button_status2.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/get_locations.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/stop_tracking.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/set_vs_mode.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/obstacle.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__description.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__type_support.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__functions.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__functions.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__struct.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/robot_gui_event.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/tracking.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/roomie_pose.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/read_card_request.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/glass_door_status.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/battery_status.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/robot_state.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/read_card_response.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/library_path.sh
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/library_path.dsv
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__type_support.c
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__type_support.c
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__type_support.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__rosidl_typesupport_introspection_c.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__type_support.c
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/enroll.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/click_button.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/perform_return.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/start_countdown.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/perform_task.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/return_countdown.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/read_card_info.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/set_pose.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/button_status2.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/elevator_status.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__type_support.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__struct.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__builder.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__traits.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/check_door_state.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/stop_tracking.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/door_status.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/location.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/control_lock.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/set_vs_mode.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/get_locations.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/check_item_loaded.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/button_status.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/read_card_response.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__builder.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__traits.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__type_support.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__struct.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/robot_gui_event.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/read_card_request.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/tracking.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/obstacle.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/glass_door_status.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/battery_status.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/robot_state.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/roomie_pose.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/dds_fastrtps
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/dds_fastrtps
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/return_countdown__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/start_countdown__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/enroll__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/click_button__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_task__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/read_card_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/action/detail/perform_return__type_support.cpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status2__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/get_locations__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_item_loaded__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/control_lock__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/door_status__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/elevator_status__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/check_door_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/stop_tracking__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/set_vs_mode__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/button_status__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/srv/detail/location__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/roomie_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/battery_status__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/tracking__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_response__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/glass_door_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/read_card_request__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/include/roomie_msgs/roomie_msgs/msg/detail/robot_gui_event__type_support.cpp
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs-0.0.0-py3.12.egg-info
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/__init__.py
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/__init__.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_return_countdown.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_set_pose_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_click_button.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_return_countdown_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_perform_return_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_perform_task.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_click_button_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_start_countdown.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_start_countdown_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_enroll.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_read_card_info.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_enroll_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_perform_task_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_read_card_info_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_set_pose.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_perform_return.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_stop_tracking.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/__init__.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_check_item_loaded.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_control_lock_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_check_door_state_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_button_status2_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_control_lock.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_check_item_loaded_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_button_status2.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_location.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_button_status_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_set_vs_mode_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_elevator_status_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_door_status.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_door_status_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_button_status.py
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_stop_tracking_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_set_vs_mode.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_elevator_status.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_get_locations.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_get_locations_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_location_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_check_door_state.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/_roomie_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/_roomie_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_roomie_pose.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/__init__.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_obstacle.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_glass_door_status_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_tracking_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_robot_state_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_read_card_request_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_read_card_request.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_glass_door_status.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_battery_status_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_robot_state.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_read_card_response.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_robot_gui_event.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_read_card_response_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_battery_status.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_roomie_pose_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_robot_gui_event_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_tracking.py
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_obstacle_s.c
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/_roomie_msgs_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/__init__.py'...
+Listing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/__init__.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_click_button.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_enroll.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_perform_return.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_perform_task.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_read_card_info.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_return_countdown.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_set_pose.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/action/_start_countdown.py'...
+Listing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/__init__.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_battery_status.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_glass_door_status.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_obstacle.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_read_card_request.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_read_card_response.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_robot_gui_event.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_robot_state.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_roomie_pose.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/msg/_tracking.py'...
+Listing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/__init__.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_button_status.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_button_status2.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_check_door_state.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_check_item_loaded.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_control_lock.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_door_status.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_elevator_status.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_get_locations.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_location.py'...
+Compiling '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/srv/_set_vs_mode.py'...
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages/roomie_msgs/roomie_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/libroomie_msgs__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/RobotState.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/BatteryStatus.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/RoomiePose.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/Obstacle.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/GlassDoorStatus.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/Tracking.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/RobotGuiEvent.idl
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/ReadCardRequest.idl
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/msg/ReadCardResponse.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/SetVSMode.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/Location.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/GetLocations.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/DoorStatus.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ElevatorStatus.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ButtonStatus.idl
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ButtonStatus2.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/CheckItemLoaded.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/CheckDoorState.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/srv/ControlLock.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/PerformTask.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/PerformReturn.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/StartCountdown.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ReadCardInfo.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ReturnCountdown.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/SetPose.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ClickButton.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/Enroll.idl
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_status/RobotState.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_status/BatteryStatus.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_status/RoomiePose.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_status/Obstacle.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_status/GlassDoorStatus.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_status/Tracking.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/user_interface/RobotGuiEvent.msg
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/rfid/ReadCardRequest.msg
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/rfid/ReadCardResponse.msg
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_control/SetVSMode.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_control/Location.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/robot_control/GetLocations.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/door_elevator/DoorStatus.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/door_elevator/ElevatorStatus.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/sensor/ButtonStatus.srv
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/sensor/ButtonStatus2.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/sensor/CheckItemLoaded.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/sensor/CheckDoorState.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/security/ControlLock.srv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/PerformTask.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/PerformReturn.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/StartCountdown.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ReadCardInfo.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ReturnCountdown.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/SetPose.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/ClickButton.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/action/Enroll.action
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/ament_index/resource_index/package_run_dependencies/roomie_msgs
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/ament_index/resource_index/parent_prefix_path/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/path.sh
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/environment/path.dsv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/local_setup.bash
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/local_setup.sh
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/local_setup.zsh
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/local_setup.dsv
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.dsv
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/ament_index/resource_index/packages/roomie_msgs
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_generator_cExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_cExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgs__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/export_roomie_msgs__rosidl_generator_pyExport-relwithdebinfo.cmake
+-- Installing: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgsConfig.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/cmake/roomie_msgsConfig-version.cmake
+-- Up-to-date: /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.xml

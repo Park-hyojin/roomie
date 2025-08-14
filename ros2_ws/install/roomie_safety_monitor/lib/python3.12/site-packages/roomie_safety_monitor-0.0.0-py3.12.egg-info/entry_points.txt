@@ -1,0 +1,3 @@
+[console_scripts]
+obstacle_simulator = roomie_safety_monitor.obstacle_simulator:main
+safety_monitor_node = roomie_safety_monitor.safety_monitor_node:main

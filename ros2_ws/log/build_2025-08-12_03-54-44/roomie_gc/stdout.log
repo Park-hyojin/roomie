@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/roomie_gc/roomie_gc.egg-info
+writing ../../build/roomie_gc/roomie_gc.egg-info/PKG-INFO
+writing dependency_links to ../../build/roomie_gc/roomie_gc.egg-info/dependency_links.txt
+writing entry points to ../../build/roomie_gc/roomie_gc.egg-info/entry_points.txt
+writing requirements to ../../build/roomie_gc/roomie_gc.egg-info/requires.txt
+writing top-level names to ../../build/roomie_gc/roomie_gc.egg-info/top_level.txt
+writing manifest file '../../build/roomie_gc/roomie_gc.egg-info/SOURCES.txt'

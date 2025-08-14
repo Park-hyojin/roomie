@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "roomie_msgs/msg/ReadCardRequest",
+      "fields": [
+        {
+          "name": "robot_id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "roomie_msgs/msg/ReadCardRequest",
+      "hash_string": "RIHS01_12439278846745fc38bb6f68da56da67ffe3be8a2951645fcdbe9448b08fa94d"
+    }
+  ]
+}

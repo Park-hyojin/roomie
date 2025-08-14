@@ -1,0 +1,6 @@
+[console_scripts]
+arm_server = roomie_rc_test.arm_server:main
+ioc_server = roomie_rc_test.ioc_server:main
+rgui_server = roomie_rc_test.rgui_server:main
+rms_server = roomie_rc_test.rms_server:main
+vs_server = roomie_rc_test.vs_server:main

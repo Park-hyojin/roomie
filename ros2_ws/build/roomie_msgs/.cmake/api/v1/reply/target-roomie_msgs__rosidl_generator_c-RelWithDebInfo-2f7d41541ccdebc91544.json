@@ -1,0 +1,2031 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libroomie_msgs__rosidl_generator_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_core_generators/cmake/rosidl_core_generators-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_core_generators/cmake/rosidl_core_generatorsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_default_generators/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"file" : 16,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 15
+			},
+			{
+				"file" : 15,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 15,
+				"line" : 21,
+				"parent" : 17
+			},
+			{
+				"file" : 14,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 19
+			},
+			{
+				"file" : 13,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 21
+			},
+			{
+				"file" : 12,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 23
+			},
+			{
+				"file" : 11,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 13,
+				"parent" : 25
+			},
+			{
+				"file" : 10,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 27
+			},
+			{
+				"file" : 9,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 29
+			},
+			{
+				"file" : 8,
+				"parent" : 30
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 31
+			},
+			{
+				"file" : 7,
+				"parent" : 32
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 21,
+				"parent" : 33
+			},
+			{
+				"file" : 6,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 35
+			},
+			{
+				"file" : 5,
+				"parent" : 36
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 37
+			},
+			{
+				"file" : 4,
+				"parent" : 38
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 39
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 19,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 19,
+				"line" : 21,
+				"parent" : 44
+			},
+			{
+				"file" : 18,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 18,
+				"line" : 41,
+				"parent" : 46
+			},
+			{
+				"file" : 17,
+				"parent" : 47
+			},
+			{
+				"command" : 9,
+				"file" : 17,
+				"line" : 25,
+				"parent" : 48
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -g -DNDEBUG -std=gnu11 -fPIC"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ROSIDL_GENERATOR_C_BUILDING_DLL_roomie_msgs"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "ROS_PACKAGE_NAME=\"roomie_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 50,
+					"path" : "/home/phj/venv/ros_venv/lib/python3.12/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/std_msgs"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rcutils"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/service_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/action_msgs"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/unique_identifier_msgs"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					42
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 41,
+			"id" : "roomie_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "roomie_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/jazzy/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/ros/jazzy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/ros/jazzy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "roomie_msgs__rosidl_generator_c",
+	"nameOnDisk" : "libroomie_msgs__rosidl_generator_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				189
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/robot_state.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/battery_status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/roomie_pose.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/obstacle.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/glass_door_status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/tracking.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/tracking__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/tracking__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/tracking__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/robot_gui_event.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/read_card_request.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/read_card_response.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/set_vs_mode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/location.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/location__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/location__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/location__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/get_locations.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/door_status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/door_status__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/door_status__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/door_status__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/elevator_status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/button_status.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/button_status2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/check_item_loaded.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/check_door_state.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/control_lock.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/perform_task.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_task__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_task__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_task__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/perform_return.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_return__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_return__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_return__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/start_countdown.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/read_card_info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/return_countdown.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/set_pose.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/set_pose__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/set_pose__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/set_pose__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/click_button.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/click_button__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/click_button__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/click_button__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/enroll.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/enroll__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/enroll__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/enroll__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_state__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/battery_status__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/roomie_pose__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/obstacle__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/glass_door_status__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/tracking__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/tracking__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/tracking__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/robot_gui_event__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_request__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/detail/read_card_response__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/set_vs_mode__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/location__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/location__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/location__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/get_locations__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/door_status__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/door_status__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/door_status__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/elevator_status__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/button_status2__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_item_loaded__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/check_door_state__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/srv/detail/control_lock__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_task__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_task__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_task__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_return__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_return__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/perform_return__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/start_countdown__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/read_card_info__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/return_countdown__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/set_pose__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/set_pose__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/set_pose__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/click_button__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/click_button__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/click_button__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/enroll__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/enroll__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/action/detail/enroll__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_c/roomie_msgs/msg/robot_state.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+obstacle_gui = roomie_gui.obstacle_gui:main

@@ -1,0 +1,565 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ec5c65d0a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ec5c66ed280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ec5c66ed280>>, mixin_verb=('build',))
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.198s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/phj/Test_cursor/05_ros2_ws_0.5'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_ec) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_ec' with type 'ros.ament_python' and name 'roomie_ec'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gc) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_gc' with type 'ros.ament_python' and name 'roomie_gc'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_gui) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_gui' with type 'ros.ament_python' and name 'roomie_gui'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_msgs) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_msgs' with type 'ros.ament_cmake' and name 'roomie_msgs'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_rc' with type 'ros.ament_python' and name 'roomie_rc'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_rc_test) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_rc_test' with type 'ros.ament_python' and name 'roomie_rc_test'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_safety_monitor) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_safety_monitor' with type 'ros.ament_python' and name 'roomie_safety_monitor'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_simple_navigator) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_simple_navigator' with type 'ros.ament_python' and name 'roomie_simple_navigator'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/roomie_static_obstacle) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roomie_static_obstacle' with type 'ros.ament_python' and name 'roomie_static_obstacle'
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/phj/Test_cursor/05_ros2_ws_0.5/install
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 413 installed packages in /opt/ros/jazzy
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'roomie_ec' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_ec' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'roomie_simple_navigator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_simple_navigator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_simple_navigator', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gui', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_rc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_rc_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_rc_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'roomie_safety_monitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_safety_monitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_safety_monitor', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_static_obstacle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_static_obstacle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_static_obstacle', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'cmake_clean_first' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'roomie_gc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'roomie_gc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc', 'merge_install': False, 'path': '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gc', 'symlink_install': False, 'test_result_base': None}
+[0.324s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs' with build type 'ament_cmake'
+[0.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs'
+[0.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec' with build type 'ament_python'
+[0.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_ec', 'ament_prefix_path')
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/hook/ament_prefix_path.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/hook/ament_prefix_path.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/hook/ament_prefix_path.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_simple_navigator' with build type 'ament_python'
+[0.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_simple_navigator', 'ament_prefix_path')
+[0.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/hook/ament_prefix_path.dsv'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/cmake --build /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs -- -j12 -l12
+[0.690s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec'
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.957s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_simple_navigator'
+[0.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/cmake --build /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs -- -j12 -l12
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/cmake --install /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs
+[1.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_msgs)
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/cmake --install /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs' for CMake module files
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs' for CMake config files
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_msgs', 'cmake_prefix_path')
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/cmake_prefix_path.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/cmake_prefix_path.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/cmake_prefix_path.sh'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib'
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_msgs', 'ld_library_path_lib')
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/ld_library_path_lib.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/ld_library_path_lib.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/ld_library_path_lib.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/bin'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/pkgconfig/roomie_msgs.pc'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages'
+[1.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_msgs', 'pythonpath')
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/pythonpath.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/pythonpath.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/pythonpath.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/bin'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.sh'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.zsh'
+[1.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/colcon-core/packages/roomie_msgs)
+[1.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_msgs)
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs' for CMake module files
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs' for CMake config files
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_msgs', 'cmake_prefix_path')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/cmake_prefix_path.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/cmake_prefix_path.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/cmake_prefix_path.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib'
+[1.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_msgs', 'ld_library_path_lib')
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/ld_library_path_lib.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/ld_library_path_lib.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/ld_library_path_lib.sh'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/bin'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/pkgconfig/roomie_msgs.pc'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_msgs', 'pythonpath')
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/pythonpath.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/pythonpath.dsv'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/hook/pythonpath.sh'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/bin'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.sh'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.bash'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/roomie_msgs/package.zsh'
+[1.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/share/colcon-core/packages/roomie_msgs)
+[1.160s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc' with build type 'ament_python'
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_rc', 'ament_prefix_path')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/hook/ament_prefix_path.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/hook/ament_prefix_path.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/hook/ament_prefix_path.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gui' with build type 'ament_python'
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_gui', 'ament_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/hook/ament_prefix_path.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/hook/ament_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/hook/ament_prefix_path.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.177s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test' with build type 'ament_python'
+[1.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_rc_test', 'ament_prefix_path')
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/hook/ament_prefix_path.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/hook/ament_prefix_path.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/hook/ament_prefix_path.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_safety_monitor' with build type 'ament_python'
+[1.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_safety_monitor', 'ament_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/hook/ament_prefix_path.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/hook/ament_prefix_path.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/hook/ament_prefix_path.sh'
+[1.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.194s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_static_obstacle' with build type 'ament_python'
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_static_obstacle', 'ament_prefix_path')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/hook/ament_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/hook/ament_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/hook/ament_prefix_path.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.531s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc'
+[1.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.920s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gui'
+[1.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.212s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test'
+[2.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.450s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_safety_monitor'
+[2.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.734s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_static_obstacle'
+[2.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_simple_navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_simple_navigator build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator/install.log --single-version-externally-managed install_data
+[2.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_ec build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/install.log --single-version-externally-managed install_data
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator' for CMake module files
+[3.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_simple_navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_simple_navigator build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_simple_navigator/install.log --single-version-externally-managed install_data
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator' for CMake config files
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib'
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/bin'
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/pkgconfig/roomie_simple_navigator.pc'
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages'
+[3.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_simple_navigator', 'pythonpath')
+[3.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/hook/pythonpath.ps1'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/hook/pythonpath.dsv'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/hook/pythonpath.sh'
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/bin'
+[3.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_simple_navigator)
+[3.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/package.ps1'
+[3.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/package.dsv'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/package.sh'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/package.bash'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/roomie_simple_navigator/package.zsh'
+[3.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/share/colcon-core/packages/roomie_simple_navigator)
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec' for CMake module files
+[3.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_ec' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_ec build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_ec/install.log --single-version-externally-managed install_data
+[3.889s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec' for CMake config files
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/bin'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/pkgconfig/roomie_ec.pc'
+[3.890s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages'
+[3.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_ec', 'pythonpath')
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/hook/pythonpath.ps1'
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/hook/pythonpath.dsv'
+[3.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/hook/pythonpath.sh'
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/bin'
+[3.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_ec)
+[3.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/package.ps1'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/package.dsv'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/package.sh'
+[3.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/package.bash'
+[3.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/roomie_ec/package.zsh'
+[3.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/share/colcon-core/packages/roomie_ec)
+[3.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_gui build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui/install.log --single-version-externally-managed install_data
+[3.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/install.log --single-version-externally-managed install_data
+[4.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_safety_monitor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_safety_monitor build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor/install.log --single-version-externally-managed install_data
+[4.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc_test build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/install.log --single-version-externally-managed install_data
+[4.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_static_obstacle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_static_obstacle build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/install.log --single-version-externally-managed install_data
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc' for CMake module files
+[5.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/install.log --single-version-externally-managed install_data
+[5.134s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc' for CMake config files
+[5.135s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib'
+[5.135s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/bin'
+[5.135s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/pkgconfig/roomie_rc.pc'
+[5.136s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages'
+[5.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_rc', 'pythonpath')
+[5.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/hook/pythonpath.ps1'
+[5.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/hook/pythonpath.dsv'
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/hook/pythonpath.sh'
+[5.138s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/bin'
+[5.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_rc)
+[5.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/package.ps1'
+[5.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/package.dsv'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/package.sh'
+[5.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/package.bash'
+[5.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/package.zsh'
+[5.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/colcon-core/packages/roomie_rc)
+[5.142s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gc' with build type 'ament_python'
+[5.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_gc', 'ament_prefix_path')
+[5.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/ament_prefix_path.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/ament_prefix_path.dsv'
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/ament_prefix_path.sh'
+[5.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gc'
+[5.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.531s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle' for CMake module files
+[5.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_static_obstacle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_static_obstacle build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/install.log --single-version-externally-managed install_data
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle' for CMake config files
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/bin'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/pkgconfig/roomie_static_obstacle.pc'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages'
+[5.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_static_obstacle', 'pythonpath')
+[5.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/hook/pythonpath.ps1'
+[5.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/hook/pythonpath.dsv'
+[5.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/hook/pythonpath.sh'
+[5.535s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/bin'
+[5.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_static_obstacle)
+[5.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/package.ps1'
+[5.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/package.dsv'
+[5.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/package.sh'
+[5.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/package.bash'
+[5.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/roomie_static_obstacle/package.zsh'
+[5.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/share/colcon-core/packages/roomie_static_obstacle)
+[5.539s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test' for CMake module files
+[5.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc_test' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc_test build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc_test/install.log --single-version-externally-managed install_data
+[5.541s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test' for CMake config files
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/bin'
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/pkgconfig/roomie_rc_test.pc'
+[5.543s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages'
+[5.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_rc_test', 'pythonpath')
+[5.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/hook/pythonpath.ps1'
+[5.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/hook/pythonpath.dsv'
+[5.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/hook/pythonpath.sh'
+[5.545s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/bin'
+[5.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_rc_test)
+[5.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/package.ps1'
+[5.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/package.dsv'
+[5.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/package.sh'
+[5.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/package.bash'
+[5.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/roomie_rc_test/package.zsh'
+[5.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/share/colcon-core/packages/roomie_rc_test)
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor' for CMake module files
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor' for CMake config files
+[5.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_safety_monitor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_safety_monitor build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_safety_monitor/install.log --single-version-externally-managed install_data
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/bin'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/pkgconfig/roomie_safety_monitor.pc'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages'
+[5.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_safety_monitor', 'pythonpath')
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/hook/pythonpath.ps1'
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/hook/pythonpath.dsv'
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/hook/pythonpath.sh'
+[5.552s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/bin'
+[5.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_safety_monitor)
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/package.ps1'
+[5.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/package.dsv'
+[5.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/package.sh'
+[5.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/package.bash'
+[5.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/roomie_safety_monitor/package.zsh'
+[5.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/share/colcon-core/packages/roomie_safety_monitor)
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui' for CMake module files
+[5.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_gui build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gui/install.log --single-version-externally-managed install_data
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui' for CMake config files
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib'
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/bin'
+[5.557s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/pkgconfig/roomie_gui.pc'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages'
+[5.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_gui', 'pythonpath')
+[5.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/hook/pythonpath.ps1'
+[5.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/hook/pythonpath.dsv'
+[5.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/hook/pythonpath.sh'
+[5.559s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/bin'
+[5.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_gui)
+[5.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/package.ps1'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/package.dsv'
+[5.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/package.sh'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/package.bash'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/roomie_gui/package.zsh'
+[5.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/share/colcon-core/packages/roomie_gui)
+[6.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gc': AMENT_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_gc build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc/install.log --single-version-externally-managed install_data
+[7.103s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc' for CMake module files
+[7.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_gc' returned '0': AMENT_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_simple_navigator/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_safety_monitor/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc_test/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gui/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_ec/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_gc build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_gc/install.log --single-version-externally-managed install_data
+[7.103s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc' for CMake config files
+[7.104s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib'
+[7.104s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/bin'
+[7.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_gc', 'path')
+[7.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/path.ps1'
+[7.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/path.dsv'
+[7.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/path.sh'
+[7.106s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/pkgconfig/roomie_gc.pc'
+[7.106s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/lib/python3.12/site-packages'
+[7.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_gc', 'pythonpath')
+[7.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/pythonpath.ps1'
+[7.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/pythonpath.dsv'
+[7.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/pythonpath.sh'
+[7.109s] Level 1:colcon.colcon_core.environment:checking '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/bin'
+[7.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('roomie_gc', 'pythonscriptspath')
+[7.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/pythonscriptspath.ps1'
+[7.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/pythonscriptspath.dsv'
+[7.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/hook/pythonscriptspath.sh'
+[7.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roomie_gc)
+[7.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/package.ps1'
+[7.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/package.dsv'
+[7.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/package.sh'
+[7.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/package.bash'
+[7.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/roomie_gc/package.zsh'
+[7.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_gc/share/colcon-core/packages/roomie_gc)
+[7.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.122s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.138s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/local_setup.ps1'
+[7.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phj/Test_cursor/05_ros2_ws_0.5/install/_local_setup_util_ps1.py'
+[7.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/setup.ps1'
+[7.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/local_setup.sh'
+[7.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phj/Test_cursor/05_ros2_ws_0.5/install/_local_setup_util_sh.py'
+[7.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/setup.sh'
+[7.146s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/local_setup.bash'
+[7.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/setup.bash'
+[7.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/local_setup.zsh'
+[7.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phj/Test_cursor/05_ros2_ws_0.5/install/setup.zsh'

@@ -1,0 +1,41 @@
+{
+  "package_name": "roomie_msgs",
+  "output_dir": "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_generator_type_description/roomie_msgs",
+  "idl_tuples": [
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/RobotState.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/BatteryStatus.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/RoomiePose.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/Obstacle.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/GlassDoorStatus.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/Tracking.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/RobotGuiEvent.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/ReadCardRequest.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:msg/ReadCardResponse.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/SetVSMode.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/Location.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/GetLocations.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/DoorStatus.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/ElevatorStatus.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/ButtonStatus.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/ButtonStatus2.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/CheckItemLoaded.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/CheckDoorState.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:srv/ControlLock.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/PerformTask.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/PerformReturn.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/StartCountdown.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/ReadCardInfo.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/ReturnCountdown.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/SetPose.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/ClickButton.idl",
+    "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/rosidl_adapter/roomie_msgs:action/Enroll.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

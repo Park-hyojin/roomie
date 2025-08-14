@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-08bfb3a314f189f68715.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "roomie_msgs__py",
+					"jsonFile" : "directory-roomie_msgs__py-RelWithDebInfo-86f12683356498070e7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs/roomie_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "roomie_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_roomie_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_roomie_msgs_egg-RelWithDebInfo-448ccb8e182bd7308ec6.json",
+					"name" : "ament_cmake_python_build_roomie_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_roomie_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_roomie_msgs-RelWithDebInfo-350a60fbda656db5172d.json",
+					"name" : "ament_cmake_python_copy_roomie_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs-RelWithDebInfo-b07aea0fd9daad0d5409.json",
+					"name" : "roomie_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__cpp-RelWithDebInfo-3977b5184fca0d45e0e8.json",
+					"name" : "roomie_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "roomie_msgs__py::@009ca048e258604365ac",
+					"jsonFile" : "target-roomie_msgs__py-RelWithDebInfo-b97804c51ccfc1648515.json",
+					"name" : "roomie_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_generator_c-RelWithDebInfo-2f7d41541ccdebc91544.json",
+					"name" : "roomie_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_generator_py-RelWithDebInfo-6a33fbb599863a8c3bf4.json",
+					"name" : "roomie_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_generator_type_description-RelWithDebInfo-97e1bba90ec28e88233c.json",
+					"name" : "roomie_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_typesupport_c-RelWithDebInfo-f12700d8623d4bfaad6b.json",
+					"name" : "roomie_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_typesupport_cpp-RelWithDebInfo-0981f312d4cbf3717928.json",
+					"name" : "roomie_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_typesupport_fastrtps_c-RelWithDebInfo-6288171c9a2c7c656225.json",
+					"name" : "roomie_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_typesupport_fastrtps_cpp-RelWithDebInfo-6bdcf3cd9050330f185a.json",
+					"name" : "roomie_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_typesupport_introspection_c-RelWithDebInfo-0a07b421c5c28cbb1045.json",
+					"name" : "roomie_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs__rosidl_typesupport_introspection_cpp-RelWithDebInfo-65358fc2e8c9d19ac6ea.json",
+					"name" : "roomie_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs_s__rosidl_typesupport_c-RelWithDebInfo-99f9abbc5381329ad573.json",
+					"name" : "roomie_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs_s__rosidl_typesupport_fastrtps_c-RelWithDebInfo-4d10dee5bc47e056b3d3.json",
+					"name" : "roomie_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs_s__rosidl_typesupport_introspection_c-RelWithDebInfo-8dc63dfe1cc4194b853d.json",
+					"name" : "roomie_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roomie_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roomie_msgs_uninstall-RelWithDebInfo-011d6f6c906e84da7014.json",
+					"name" : "roomie_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-5472d76b6f937ad4601f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_msgs",
+		"source" : "/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/PKG-INFO
+writing dependency_links to ../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/dependency_links.txt
+writing entry points to ../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/entry_points.txt
+writing requirements to ../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/requires.txt
+writing top-level names to ../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/top_level.txt
+reading manifest file '../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/SOURCES.txt'
+writing manifest file '../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info/SOURCES.txt'
+running build
+running build_py
+copying roomie_static_obstacle/route_manager_node.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/build/lib/roomie_static_obstacle
+copying roomie_static_obstacle/config.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/build/lib/roomie_static_obstacle
+running install
+running install_lib
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/build/lib/roomie_static_obstacle/route_manager_node.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages/roomie_static_obstacle
+copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/build/lib/roomie_static_obstacle/config.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages/roomie_static_obstacle
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages/roomie_static_obstacle/route_manager_node.py to route_manager_node.cpython-312.pyc
+byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages/roomie_static_obstacle/config.py to config.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages/roomie_static_obstacle-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/roomie_static_obstacle/roomie_static_obstacle.egg-info to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/python3.12/site-packages/roomie_static_obstacle-0.0.0-py3.12.egg-info
+running install_scripts
+Installing route_manager script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/roomie_static_obstacle
+Installing tuner_node script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_static_obstacle/lib/roomie_static_obstacle
+writing list of installed files to '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_static_obstacle/install.log'

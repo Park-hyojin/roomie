@@ -1,0 +1,64 @@
+[4.412s] Invoking command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc': AMENT_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib:${LD_LIBRARY_PATH} PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/install.log --single-version-externally-managed install_data
+[4.842s] running egg_info
+[4.843s] creating ../../build/roomie_rc/roomie_rc.egg-info
+[4.879s] writing ../../build/roomie_rc/roomie_rc.egg-info/PKG-INFO
+[4.879s] writing dependency_links to ../../build/roomie_rc/roomie_rc.egg-info/dependency_links.txt
+[4.879s] writing entry points to ../../build/roomie_rc/roomie_rc.egg-info/entry_points.txt
+[4.879s] writing requirements to ../../build/roomie_rc/roomie_rc.egg-info/requires.txt
+[4.879s] writing top-level names to ../../build/roomie_rc/roomie_rc.egg-info/top_level.txt
+[4.880s] writing manifest file '../../build/roomie_rc/roomie_rc.egg-info/SOURCES.txt'
+[4.955s] reading manifest file '../../build/roomie_rc/roomie_rc.egg-info/SOURCES.txt'
+[4.956s] writing manifest file '../../build/roomie_rc/roomie_rc.egg-info/SOURCES.txt'
+[4.956s] running build
+[4.956s] running build_py
+[4.957s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build
+[4.957s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib
+[4.957s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.957s] copying roomie_rc/__init__.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.958s] copying roomie_rc/gui_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.958s] copying roomie_rc/config.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.958s] copying roomie_rc/arm_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.958s] copying roomie_rc/rc_node.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.959s] copying roomie_rc/location_manager.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.959s] copying roomie_rc/nav_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.959s] copying roomie_rc/vs_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.959s] copying roomie_rc/ioc_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.959s] copying roomie_rc/rms_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc
+[4.959s] running install
+[4.967s] running install_lib
+[5.003s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.003s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/__init__.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.004s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/gui_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.004s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/config.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.005s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/arm_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.005s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/rc_node.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.005s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/location_manager.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.006s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/nav_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.006s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/vs_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.006s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/ioc_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.006s] copying /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build/lib/roomie_rc/rms_client.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc
+[5.007s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/__init__.py to __init__.cpython-312.pyc
+[5.007s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/gui_client.py to gui_client.cpython-312.pyc
+[5.007s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/config.py to config.cpython-312.pyc
+[5.007s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/arm_client.py to arm_client.cpython-312.pyc
+[5.008s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/rc_node.py to rc_node.cpython-312.pyc
+[5.018s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/location_manager.py to location_manager.cpython-312.pyc
+[5.020s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/nav_client.py to nav_client.cpython-312.pyc
+[5.021s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/vs_client.py to vs_client.cpython-312.pyc
+[5.022s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/ioc_client.py to ioc_client.cpython-312.pyc
+[5.024s] byte-compiling /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc/rms_client.py to rms_client.cpython-312.pyc
+[5.026s] running install_data
+[5.026s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index
+[5.026s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index/resource_index
+[5.026s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index/resource_index/packages
+[5.027s] copying resource/roomie_rc -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/ament_index/resource_index/packages
+[5.027s] copying package.xml -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc
+[5.027s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/scripts
+[5.027s] creating /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/launch
+[5.027s] copying launch/rc_node.launch.py -> /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/share/roomie_rc/launch
+[5.028s] running install_egg_info
+[5.069s] Copying ../../build/roomie_rc/roomie_rc.egg-info to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages/roomie_rc-0.0.0-py3.12.egg-info
+[5.070s] running install_scripts
+[5.284s] Installing rc_node script to /home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/roomie_rc
+[5.284s] writing list of installed files to '/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/install.log'
+[5.318s] Invoked command in '/home/phj/Test_cursor/05_ros2_ws_0.5/src/roomie_rc' returned '0': AMENT_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib:${LD_LIBRARY_PATH} PS1=(ros_venv) \[\e[1;34m\](ID: ${ROS_DOMAIN_ID:-0})\[\e[1;32m\]\u\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]$ PYTHONPATH=/home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_rc/lib/python3.12/site-packages:/home/phj/Test_cursor/05_ros2_ws_0.5/install/roomie_msgs/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roomie_rc build --build-base /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/build install --record /home/phj/Test_cursor/05_ros2_ws_0.5/build/roomie_rc/install.log --single-version-externally-managed install_data
